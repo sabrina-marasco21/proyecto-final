@@ -1,0 +1,176 @@
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/maps";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/utilities";
+
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+    font-family:'calibri',sans-serif;
+}
+.contenedor-logo, .menu-principal{
+	margin:auto;
+	text-align:center;
+}
+.topnav {
+  overflow: hidden;
+  background-color:deeppink;
+}
+.topnav a {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.titulo-formacion {
+  background-color:#B24592;
+ color:white;
+ padding: 20px;
+ text-align: center;
+font-size: 22px; 
+}
+.image formacion{
+  position:absolute;
+margin-top: 50px;
+    margin-left: 50px;
+}
+.titulo-experiencia{
+   background-color:#B24592;
+  color:white;
+  padding: 20px;
+  text-align: center;
+ font-size: 22px; 
+}
+
+.experiencia{
+	background-color:#B24592;
+	color:white ;
+	text-align: center;
+	padding: 30px 0;
+}
+img.izquierda {
+  float: left;
+}
+
+img.derecha {
+  float: right;
+}
+
+.inicio-proyectos{
+    background-color:#B24592;
+  color:white;
+  padding: 10px;
+  text-align: center;
+   font-size: 22px;
+}
+.titulo.proyectos{
+    background-color:pink;
+  color:white;
+  padding: 10px;
+  text-align: center;
+
+;
+	color: white;
+	text-align: center;
+	padding: 30px 0;
+}
+.proyectos{
+	background-color:   #B24592;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #F15F79, #B24592);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #F15F79, #B24592); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+;
+	color: white;
+	text-align: center;
+    column-count: 3;
+	padding: 30px 0;
+}
+.proyectos a {
+  float: center;
+  background-color: #FFAFBD;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffc3a0, #FFAFBD);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffc3a0, #FFAFBD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+;
+  display: block;
+  color:hotpink;
+  text-align: center;
+  border: 15px solid;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.titulo-sobre mi{
+    background-color: #F15F79;
+  color:white;
+  padding: 10px;
+  text-align: center;
+    
+}
+.sobre mi{
+    
+	background-color: #F15F79;
+	color: white;
+	text-align: center;
+    column-count: 3;
+	  padding: 20px;
+}
+.sobre mi a {
+  float: center;
+  background-color:#F15F79; 
+;
+  display: block;
+  padding: 10px 12px;
+  text-decoration: none;
+}
+
+.abajo{
+    float: center;
+    text-align: center;
+ background-color: #F15F79;
+	color: black;
+	padding: 30px;
+}
+form{
+  padding: 20px;
+  max-width: 400px;
+  background-color: #E7E7E7;
+  margin: 0 auto;
+}
+
+form input, form textarea{
+  margin-bottom: 15px;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; 
+  border: none; 
+font-size: 1em;
+  resize: horizontal; 
+}
+
+form button {
+	display: block;
+	background-color: #FFAFBD;  /* fallback for old browsers */
+   padding: 10px 45px 10px 45px;
+	border: 0;
+	font-size: 1em; 
+	color: 	white;
+  font-family: "Roboto", sans-serif;
+}
+.final a {
+  float: center;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  text-decoration: none;
+}
